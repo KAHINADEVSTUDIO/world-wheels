@@ -1,0 +1,60 @@
+// COLORS
+
+$text: #0f2447;
+$background: #e7e4e4;
+$primary: #c0c0c0;
+$secondary: #4984a7;
+$accent: #b7ccf0;
+
+// FONTS
+
+// POSITION 
+
+$fixed: fixed;
+$absolute: absolute;
+$relative: relative;
+
+// MEDIA QUERIES 
+
+$mobile: 576px;
+$small-tablet: 768px;
+$tablet: 1024px;
+
+
+// DISPLAY 
+
+$display-flex: flex;
+$display-none: none;
+$display-block: block;
+
+// MAX 
+
+$max: 100%;
+
+// COVER 
+
+$cover: cover;
+
+// SIZE
+
+$initial: 0;
+$size-five: 5px;
+$size-ten: 10px;
+$size-twenty: 20px;
+
+// TRANSFORM 
+
+$uppercase: uppercase;
+
+// BORDER
+
+$border-dark: 0.3px solid $text;
+$border-secondary-header: 3px solid $secondary;
+
+// SPACING 
+
+$spacing: 1px;
+
+// TRANSITION 
+
+$transition: all 0.5s ease;

@@ -1,0 +1,24 @@
+@import "../base/typography.scss";
+
+* {
+    margin: $initial;
+    padding: $initial;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: $background;
+    font-family: $font-base;
+}
+
+section {
+    padding: 140px 0;
+}
+
+img {
+    width: $max;
+    object-fit: $cover;
+}

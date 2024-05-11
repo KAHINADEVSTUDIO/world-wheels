@@ -1,0 +1,102 @@
+.position-fixed-right-btn {
+  right: 20px;
+  position: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #e7e4e4;
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  padding: 140px 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 0 10px;
+  }
+}
+.header .container {
+  padding: 10px 0 20px 0;
+  border-bottom: 0.3px solid #0f2447;
+}
+.header .container .navbar-brand,
+.header .container .nav-link {
+  color: #0f2447;
+  text-transform: uppercase;
+}
+.header .container .navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.header .container .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+@media screen and (max-width: 1024px) {
+  .header .container .nav-link {
+    color: #e7e4e4 !important;
+  }
+}
+.header .container .nav-link:hover, .header .container .nav-link:focus, .header .container .nav-link:active {
+  color: #4984a7;
+  font-weight: 800;
+}
+@media screen and (max-width: 1024px) {
+  .header .container .nav-link:hover, .header .container .nav-link:focus, .header .container .nav-link:active {
+    color: #4984a7 !important;
+  }
+}
+.header .container .nav-item {
+  transition: all 0.5s ease;
+}
+.header .container .nav-item:hover, .header .container .nav-item:focus, .header .container .nav-item:active {
+  padding: 10px 0 0 10px;
+  border-top: 3px solid #4984a7;
+  border-left: 3px solid #4984a7;
+  transition: all 0.5s ease;
+}
+.header .container .toggler {
+  color: #0f2447;
+  font-size: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+@media screen and (max-width: 1024px) {
+  .header .container .navbar-collapse {
+    top: 0;
+    left: 0;
+    width: 50%;
+    min-height: 50vh;
+    padding: 50px 20px;
+    background-color: #0f2447;
+    transition: all 0.5s ease !important;
+    position: fixed !important;
+  }
+}
+
+.btn-top {
+  color: #0f2447;
+  bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
