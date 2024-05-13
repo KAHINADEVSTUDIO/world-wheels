@@ -4,3 +4,60 @@
     right: $size-twenty;
     position: $fixed;
 }
+
+.position-absolute-top-left {
+    top: $initial;
+    left: $initial;
+    position: $absolute;
+}
+
+// BACKGROUND
+
+.bg-light {
+    background-color: $background !important;
+}
+
+.bg-text {
+    background-color: $text !important;
+}
+
+.bg-text,
+.bg-secondary {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        color: $background !important;
+    }
+}
+
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
+.bg-accent {
+    background-color: $accent !important;
+}
+
+// FONTS 
+
+.subtitle {
+    @include subtitle;
+}
+
+// CONTENT 
+
+.content-text {
+    padding: $size-twenty;
+
+    p {
+        margin-top: $size-twenty;
+    }
+}

@@ -1,0 +1,95 @@
+.hero-world {
+    img {
+        width: $max;
+        z-index: -3;
+        height: 100vh;
+        border-radius: $initial !important;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 81%, 80% 100%, 20% 100%, 0 81%, 0 0);
+
+        @media screen and (max-width: 390px) {
+            height: 110vh !important;
+        }
+
+        @media screen and (max-width: 1480px) {
+            clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 91%, 80% 100%, 20% 100%, 0 91%, 0 0) !important;
+        }
+    }
+
+    h1 {
+        @media screen and (max-width: $mobile) {
+            margin-top: $initial !important;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-top: 5.5rem;
+        }
+    }
+
+    h1,
+    p {
+        color: $background !important;
+    }
+
+    .content-text {
+        padding: $size-twenty $initial;
+
+        p {
+            margin-top: $initial !important;
+        }
+    }
+
+    .container-fluid {
+        padding: $initial !important;
+    }
+}
+
+.travel-companion {
+    padding-top: 260px;
+
+    @media screen and (max-width: $mobile) {
+        padding-top: 240px !important;
+    }
+
+    @media screen and (max-width: $tablet) {
+        padding-top: 290px;
+    }
+
+    img {
+        margin-left: 7%;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: $initial !important;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-top: -10%;
+            margin-left: $initial !important;
+        }
+    }
+
+    h2 {
+        @media screen and (max-width: $mobile) {
+            font-size: 2.730rem !important;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.travel {
+    h3 {
+        font-size: 2.900rem;
+    }
+
+    img {
+        margin-bottom: $size-twenty;
+    }
+}
+
+.engagement {
+    h4 {
+        margin-bottom: $size-twenty;
+    }
+}

@@ -3,3 +3,14 @@
     letter-spacing: $spacing;
     font-family: $font-base;
 }
+
+@mixin text {
+    font-size: 1.6rem;
+    font-family: $font-base;
+}
+
+@mixin subtitle {
+    letter-spacing: $spacing;
+    text-transform: $uppercase;
+    font-family: $font-primary;
+}

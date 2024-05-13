@@ -1,0 +1,28 @@
+.footer {
+    padding: 60px $initial $initial $initial;
+    border-radius: $radius;
+
+    .container-fluid {
+        margin-top: 40px;
+        background-color: $background;
+
+        h6 {
+            padding: 30px $initial $size-twenty $initial;
+        }
+    }
+
+    h5,
+    p,
+    a {
+        color: $text;
+    }
+
+    p,
+    a {
+        font-size: 18px;
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: 0.8rem;
+        }
+    }
+}

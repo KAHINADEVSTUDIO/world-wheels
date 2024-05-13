@@ -1,4 +1,49 @@
 // FONT
 
-$font-base: "Open Sans", sans-serif;
-$font-primary: "Montserrat", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: $uppercase;
+    font-family: $font-primary;
+}
+
+h1 {
+    font-size: 5rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 3rem !important;
+    }
+}
+
+h2 {
+    font-size: 4.999rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 2.999rem !important;
+    }
+}
+
+h3 {
+    font-size: 4.900rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 2.900rem !important;
+    }
+}
+
+h4 {
+    font-size: 4.890rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 2.800rem !important;
+    }
+}
+
+
+p {
+    @include text;
+}

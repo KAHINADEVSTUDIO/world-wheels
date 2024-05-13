@@ -1,0 +1,40 @@
+.btn {
+    padding: $size-twenty;
+    font-size: 17px;
+    margin-top: 1rem;
+    font-weight: 500;
+    transition: $transition;
+    border-radius: $radius;
+    background-color: $transparent;
+
+    &:hover,
+    &:focus,
+    &:active {
+        border: $display-none !important;
+        transition: $transition !important;
+    }
+}
+
+.btn-dark {
+    color: $text;
+    border: $border-dark-btn;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $background;
+        background-color: $text;
+    }
+}
+
+.btn-light {
+    color: $background;
+    border: $border-light-btn;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $text;
+        background-color: $background;
+    }
+}

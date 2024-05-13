@@ -1,0 +1,33 @@
+.card {
+    margin-top: 1.5rem;
+    border: $display-none;
+    background-color: transparent;
+}
+
+.card-strength {
+    .name-strength {
+        z-index: 11;
+        font-size: $size-twenty !important;
+        color: $primary;
+        padding: $size-twenty;
+        position: $absolute;
+        @include text;
+        background-color: $text;
+    }
+
+    img {
+        height: 400px;
+    }
+
+    p {
+        margin-top: $size-twenty;
+    }
+}
+
+.card-infos {
+    padding: 30px;
+
+    .subtitle, p {
+        font-size: 25px;
+    }
+}

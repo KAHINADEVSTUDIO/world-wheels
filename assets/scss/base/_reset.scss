@@ -10,15 +10,24 @@
 }
 
 body {
-    color: $background;
+    color: $text;
     font-family: $font-base;
 }
 
 section {
-    padding: 140px 0;
+    padding: 140px $initial;
+
+    @media screen and (max-width: $mobile) {
+        padding: 80px $size-ten !important;
+    }
+
+    @media screen and (max-width: $tablet) {
+        padding: 120px $initial;
+    }
 }
 
 img {
     width: $max;
+    border-radius: $radius;
     object-fit: $cover;
 }

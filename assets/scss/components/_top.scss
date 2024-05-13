@@ -1,4 +1,18 @@
 .btn-top {
     color: $text;
+    display: $display-none;
     bottom: $size-twenty;
+    transition: $transition;
+    border: $display-none !important;
+    background-color: $background !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $text;
+    }
+}
+
+#topButton.show {
+    display: $display-block;
 }

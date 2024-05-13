@@ -8,6 +8,9 @@ $accent: #b7ccf0;
 
 // FONTS
 
+$font-base: "Open Sans", sans-serif;
+$font-primary: "Montserrat", sans-serif;
+
 // POSITION 
 
 $fixed: fixed;
@@ -40,7 +43,9 @@ $cover: cover;
 $initial: 0;
 $size-five: 5px;
 $size-ten: 10px;
+$size-fifteen: 15px;
 $size-twenty: 20px;
+$size-fifty: 50px;
 
 // TRANSFORM 
 
@@ -49,6 +54,9 @@ $uppercase: uppercase;
 // BORDER
 
 $border-dark: 0.3px solid $text;
+$border-light: 0.3px solid $background;
+$border-dark-btn: 2px solid $text;
+$border-light-btn: 2px solid $background;
 $border-secondary-header: 3px solid $secondary;
 
 // SPACING 
@@ -58,3 +66,11 @@ $spacing: 1px;
 // TRANSITION 
 
 $transition: all 0.5s ease;
+
+// RADIUS 
+
+$radius: 0.600rem;
+
+// BACKGROUND 
+
+$transparent: transparent;
