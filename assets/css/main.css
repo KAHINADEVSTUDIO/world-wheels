@@ -1,3 +1,8 @@
+.position-fixed-left {
+  left: 20px;
+  position: fixed;
+}
+
 .position-fixed-right-btn {
   right: 20px;
   position: fixed;
@@ -45,6 +50,7 @@
 }
 
 .subtitle {
+  font-size: 20px !important;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -107,6 +113,11 @@ h4 {
 p {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 1.3rem !important;
+  }
 }
 
 * {
@@ -193,6 +204,11 @@ h4 {
 p {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
+}
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 1.3rem !important;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -350,6 +366,7 @@ p {
 
 .card {
   margin-top: 1.5rem;
+  padding: 30px;
   border: none;
   background-color: transparent;
 }
@@ -364,18 +381,29 @@ p {
   font-family: "Open Sans", sans-serif;
   background-color: #0f2447;
 }
+@media screen and (max-width: 576px) {
+  .card-strength .name-strength {
+    font-size: 1.3rem !important;
+  }
+}
 .card-strength img {
   height: 400px;
 }
 .card-strength p {
+  padding: 0;
   margin-top: 20px;
 }
 
-.card-infos {
-  padding: 30px;
-}
 .card-infos .subtitle, .card-infos p {
   font-size: 25px;
+}
+
+.languages {
+  bottom: 20px !important;
+}
+.languages .btn {
+  border: none !important;
+  background-color: #e7e4e4 !important;
 }
 
 .hero-world img {
@@ -466,6 +494,42 @@ p {
 
 .engagement h4 {
   margin-bottom: 20px;
+}
+
+.hero-about {
+  padding-top: 20px !important;
+}
+.hero-about img {
+  height: 50vh;
+}
+.hero-about h1 {
+  margin: 45px 0;
+}
+
+.chronology p {
+  font-size: 18px;
+}
+.chronology .second {
+  margin: 20px 0;
+}
+@media screen and (max-width: 576px) {
+  .chronology .second {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .chronology .first {
+    margin: 20px 0;
+  }
+}
+
+.mission h2 {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .mission img {
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

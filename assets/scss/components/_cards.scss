@@ -1,5 +1,6 @@
 .card {
     margin-top: 1.5rem;
+    padding: 30px;
     border: $display-none;
     background-color: transparent;
 }
@@ -20,12 +21,12 @@
     }
 
     p {
+        padding: $initial;
         margin-top: $size-twenty;
     }
 }
 
 .card-infos {
-    padding: 30px;
 
     .subtitle, p {
         font-size: 25px;

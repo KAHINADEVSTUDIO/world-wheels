@@ -1,0 +1,44 @@
+.hero-about {
+    padding-top: $size-twenty !important;
+
+    img {
+        height: 50vh;
+    }
+
+    h1 {
+        margin: 45px $initial;
+    }
+}
+
+.chronology {
+    p {
+        font-size: 18px;
+    }
+
+    .second {
+        margin: $size-twenty $initial;
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: $size-twenty;
+        }
+    }
+
+    .first {
+
+        @media screen and (max-width: $mobile) {
+            margin: $size-twenty $initial;
+        }
+    }
+}
+
+.mission {
+    h2 {
+        margin-bottom: $size-twenty;
+    }
+
+    img {
+        @media screen and (max-width: $mobile) {
+            margin-top: $size-twenty;
+        }
+    }
+}

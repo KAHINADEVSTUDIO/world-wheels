@@ -7,9 +7,14 @@
 @mixin text {
     font-size: 1.6rem;
     font-family: $font-base;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 1.3rem !important;
+    }
 }
 
 @mixin subtitle {
+    font-size: $size-twenty !important;
     letter-spacing: $spacing;
     text-transform: $uppercase;
     font-family: $font-primary;
