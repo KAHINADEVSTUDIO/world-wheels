@@ -3,6 +3,14 @@
     padding: 30px;
     border: $display-none;
     background-color: transparent;
+
+    @media screen and (max-width: $mobile) {
+        padding: 30px $initial !important;
+    }
+
+    .subtitle {
+        font-size: 22px !important;
+    }
 }
 
 .card-strength {
@@ -28,7 +36,34 @@
 
 .card-infos {
 
-    .subtitle, p {
-        font-size: 25px;
+    p {
+        font-size: 22px !important;
+    }
+}
+
+.card-destination {
+    padding: $initial !important;
+
+    .content-card {
+        width: $max;
+        margin-top: -17%;
+        padding: 2.3rem;
+        border-radius: $radius;
+        text-align: center;
+        position: $absolute;
+        background-color: #abbfe0;
+
+        @media screen and (max-width: $mobile) {
+            margin-top: -28% !important;
+        }
+
+        @media screen and (max-width: $tablet) {
+            margin-top: -32%;
+        }
+
+        h4 {
+            color: $text !important;
+            font-size: 22.5px !important;
+        }
     }
 }

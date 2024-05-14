@@ -1,10 +1,10 @@
 .btn-top {
-    color: $text;
+    color: $background !important;
     display: $display-none;
-    bottom: $size-twenty;
+    bottom: $size-ten;
     transition: $transition;
     border: $display-none !important;
-    background-color: $background !important;
+    background-color: $secondary !important;
 
     &:hover,
     &:focus,

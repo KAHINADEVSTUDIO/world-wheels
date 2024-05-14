@@ -1,7 +1,9 @@
 .languages {
- bottom: $size-twenty !important;
- .btn {
-    border: $display-none !important;
-    background-color: $background !important;
- }   
+   bottom: $size-ten !important;
+
+   .btn {
+      color: $background;
+      border: $display-none !important;
+      background-color: $secondary !important;
+   }
 }

@@ -1,0 +1,18 @@
+.video, 
+.more {
+    video,
+    .btn {
+        width: $max;
+    }
+}
+
+.video {
+    margin-bottom: -20px;
+    padding: $initial !important;
+}
+
+.more {
+    .card {
+        padding: 30px !important;
+    }
+}

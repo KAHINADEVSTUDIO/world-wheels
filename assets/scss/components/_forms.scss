@@ -1,0 +1,15 @@
+.form-contact {
+    input, 
+    select, 
+    textarea {
+        color: $text;
+        padding: 30px;
+        border-radius: $radius;
+        background-color: $background !important;
+        font-family: $font-base !important;
+
+        &::placeholder {
+            color: $text;
+        }
+    }
+}

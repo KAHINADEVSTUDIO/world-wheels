@@ -4,9 +4,10 @@
 
     .container-fluid {
         margin-top: 40px;
-        background-color: $background;
+        background-color: $text;
 
         h6 {
+            color: $background;
             padding: 30px $initial $size-twenty $initial;
         }
     }
