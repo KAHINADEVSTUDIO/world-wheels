@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Our means of transport - WorldWheels</title>
+    <title>Contact us - WorldWheels</title>
 
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -60,63 +60,45 @@
     </header>
 
     <main class="main" id="main" role="main" aria-label="Main">
-        <section class="hero-transports">
+        <section class="contact form-contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h1 class="aos-init aos-animation" data-aos="zoom-in" data-aos-delay="300">Our means of transports</h1>
+                    <div class="col-md-12 text-center">
+                        <h1 class="aos-init aos-animation" data-aos="fade-in" 
+                        data-aos-delay="400">Contact us</h1>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="transports bg-text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card card-transport aos-init aos-animation" data-aos="fade-up" data-aos-delay="400">
-                            <a href="contact.html">
-                                <img src="../assets/img/transports/cars.png" alt="Car">
-                                <div class="content-card">
-                                    <h2>Car</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card card-transport aos-init aos-animation" data-aos="fade-up" data-aos-delay="400">
-                            <a href="contact.html">
-                                <img src="../assets/img/transports/boat.png" alt="Boat">
-                                <div class="content-card">
-                                    <h2>Boat</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card card-transport aos-init aos-animation" data-aos="fade-up" data-aos-delay="400">
-                            <a href="contact.html">
-                                <img src="../assets/img/transports/plane.png" alt="Plane">
-                                <div class="content-card">
-                                    <h2>Plane</h2>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card card-transport aos-init aos-animation" data-aos="fade-up" data-aos-delay="400">
-                            <a href="contact.html">
-                                <img src="../assets/img/transports/train.png" alt="Train">
-                                <div class="content-card">
-                                    <h2>Train</h2>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col-md-12">
+                        <form action="#" method="post" class="form aos-init aos-animation" data-aos="fade-up" 
+                        data-aos-delay="300">
+                            <input type="text" name="name" id="name" required placeholder="Identity" 
+                            class="form-control">
+                            <br>
+                            <input type="email" name="mail" id="mail" required placeholder="E-mail" 
+                            class="form-control">
+                            <br>
+                            <input type="tel" name="phone" id="phone" required placeholder="Phone" 
+                            class="form-control">
+                            <br>
+                            <select id="services" required class="form-select">
+                                <option value="">Choose an option</option>
+                                <option>Sea transport</option>
+                                <option>Air transport</option>
+                                <option>Road transport</option>
+                            </select>
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="10" required 
+                            placeholder="Message" class="form-control"></textarea>
+                            <br>
+                            <button type="submit" class="btn btn-secondary">
+                                Submit
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
+    
     <footer class="footer" id="footer" role="footer" aria-label="Footer">
         <div class="container">
             <div class="row">
@@ -158,9 +140,9 @@
             </div>
         </div>
     </footer>
-    
+
     <div class="languages position-fixed-left">
-        <a href="../transports.html" 
+        <a href="../contact.html" 
         class="btn">
             Fr
         </a>
