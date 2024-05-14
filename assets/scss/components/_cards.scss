@@ -41,7 +41,8 @@
     }
 }
 
-.card-destination {
+.card-destination,
+.card-transport {
     padding: $initial !important;
 
     .content-card {
@@ -61,9 +62,30 @@
             margin-top: -32%;
         }
 
+        h4,
+        h2 {
+            font-size: 20.5px !important;
+        }
+
         h4 {
             color: $text !important;
-            font-size: 20.5px !important;
+        }
+
+        h2 {
+            color: $background !important;
+        }
+    }
+}
+
+.card-transport {
+    margin-bottom: $size-twenty;
+
+    .content-card {
+        margin-top: -16%;
+        background-color: #142b54 !important;
+
+        @media screen and (max-width: $tablet) {
+            margin-top: -30%;
         }
     }
 }

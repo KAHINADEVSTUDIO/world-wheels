@@ -406,10 +406,12 @@ p {
   font-size: 22px !important;
 }
 
-.card-destination {
+.card-destination,
+.card-transport {
   padding: 0 !important;
 }
-.card-destination .content-card {
+.card-destination .content-card,
+.card-transport .content-card {
   width: 100%;
   margin-top: -17%;
   padding: 2.3rem;
@@ -419,18 +421,43 @@ p {
   background-color: #abbfe0;
 }
 @media screen and (max-width: 576px) {
-  .card-destination .content-card {
+  .card-destination .content-card,
+.card-transport .content-card {
     margin-top: -28% !important;
   }
 }
 @media screen and (max-width: 1024px) {
-  .card-destination .content-card {
+  .card-destination .content-card,
+.card-transport .content-card {
     margin-top: -32%;
   }
 }
-.card-destination .content-card h4 {
-  color: #0f2447 !important;
+.card-destination .content-card h4,
+.card-destination .content-card h2,
+.card-transport .content-card h4,
+.card-transport .content-card h2 {
   font-size: 20.5px !important;
+}
+.card-destination .content-card h4,
+.card-transport .content-card h4 {
+  color: #0f2447 !important;
+}
+.card-destination .content-card h2,
+.card-transport .content-card h2 {
+  color: #e7e4e4 !important;
+}
+
+.card-transport {
+  margin-bottom: 20px;
+}
+.card-transport .content-card {
+  margin-top: -16%;
+  background-color: #142b54 !important;
+}
+@media screen and (max-width: 1024px) {
+  .card-transport .content-card {
+    margin-top: -30%;
+  }
 }
 
 .languages {
